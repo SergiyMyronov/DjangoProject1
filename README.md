@@ -1,2 +1,4 @@
 # DjangoProject1
-First Fjango Project
+My First Django Project
+with App "catallog"
+
