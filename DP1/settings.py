@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", 'cc__u)3ct5l*(dhtbkb3f%=a$ros74g((wv)xey$=hyca2w+hh')
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -107,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
